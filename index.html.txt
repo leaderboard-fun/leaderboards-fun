@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 style="font-family: 'Cardo', serif;">leaderboards.fun</h1>
+    </header>
+    <main>
+        <div class="container">
+            <div class="countdown" id="countdown">
+                <p id="timer">03:00</p>
+            </div>
+            <button id="increment" onclick="incrementPoints()">Get Point</button>
+            <div class="leaderboard" id="leaderboard">
+                <h2>Leaderboard</h2>
+                <ul id="leaderboard-list"></ul>
+            </div>
+            <div class="ads">
+                <div class="ad" id="ad-left-1"></div>
+                <div class="ad" id="ad-left-2"></div>
+                <div class="ad" id="ad-right"></div>
+                <div class="ad" id="ad-bottom"></div>
+                <div class="ad" id="ad-top"></div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

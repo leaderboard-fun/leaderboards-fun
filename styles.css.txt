@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.countdown {
+    background-color: #000;
+    color: #fff;
+    border-radius: 50%;
+    padding: 20px;
+    margin: 20px;
+}
+#timer {
+    font-size: 24px;
+}
+#increment {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.leaderboard {
+    margin-bottom: 20px;
+}
+.ads {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.ad {
+    background-color: #ddd;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+}
